@@ -1,0 +1,440 @@
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Andon.csprojAssemblyReference.cache
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\AddOn.UI.Connect.resources
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\AndOn.UI.DisplayScreen.resources
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Andon.Properties.Resources.resources
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\AddOn.UI.HomeSlide.resources
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\AddOn.UI.Login.resources
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\AddOn.UI.LoginClose.resources
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\AddOn.UI.MAIN.resources
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Andon.csproj.GenerateResource.cache
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Andon.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Andon.exe.config
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Andon.exe
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Andon.pdb
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\LiteDB.dll
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Identity.Client.dll
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Quartz.dll
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\System.Buffers.dll
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\System.Memory.dll
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\LiteDB.xml
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Data.SqlClient.pdb
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Data.SqlClient.xml
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Identity.Client.xml
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Quartz.xml
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\System.Buffers.xml
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\System.Memory.xml
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\obj\Debug\Andon.UI.Connect.resources
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\obj\Debug\Andon.UI.DisplayScreen.resources
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\obj\Debug\Andon.Properties.Resources.resources
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\obj\Debug\Andon.UI.HomeSlide.resources
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\obj\Debug\Andon.UI.Login.resources
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\obj\Debug\Andon.UI.LoginClose.resources
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\obj\Debug\Andon.UI.MAIN.resources
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\obj\Debug\Andon.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\obj\Debug\Andon.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\obj\Debug\Andon.csproj.CopyComplete
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\obj\Debug\Andon.exe
+C:\Users\Administrator\Desktop\HUNG\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\obj\Debug\Andon.pdb
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Andon.exe.config
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Andon.exe
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Andon.pdb
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\LiteDB.dll
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Data.SqlClient.dll
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Identity.Client.dll
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Logging.dll
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Newtonsoft.Json.dll
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Quartz.dll
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\System.Buffers.dll
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\System.Memory.dll
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\System.Numerics.Vectors.dll
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\LiteDB.xml
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Data.SqlClient.pdb
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Data.SqlClient.xml
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Identity.Client.xml
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Logging.xml
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Newtonsoft.Json.xml
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Quartz.xml
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\System.Buffers.xml
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\System.Memory.xml
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\System.Numerics.Vectors.xml
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\obj\Debug\Andon.UI.Connect.resources
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\obj\Debug\Andon.UI.DisplayScreen.resources
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\obj\Debug\Andon.Properties.Resources.resources
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\obj\Debug\Andon.UI.HomeSlide.resources
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\obj\Debug\Andon.UI.Login.resources
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\obj\Debug\Andon.UI.LoginClose.resources
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\obj\Debug\Andon.UI.MAIN.resources
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\obj\Debug\Andon.csproj.GenerateResource.cache
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\obj\Debug\Andon.csproj.CoreCompileInputs.cache
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\obj\Debug\Andon.csproj.CopyComplete
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\obj\Debug\Andon.exe
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\obj\Debug\Andon.pdb
+D:\COMPANY\ANDONSYSTEM\ANDON_FINAL\WindowsFormsApp1\Andon\obj\Debug\Andon.csprojAssemblyReference.cache
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Andon.exe.config
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Andon.exe
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Andon.pdb
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\LiteDB.dll
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Identity.Client.dll
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Newtonsoft.Json.dll
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Quartz.dll
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\System.Buffers.dll
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\System.Memory.dll
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\LiteDB.xml
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Data.SqlClient.pdb
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Data.SqlClient.xml
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Identity.Client.xml
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Newtonsoft.Json.xml
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\Quartz.xml
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\System.Buffers.xml
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\System.Memory.xml
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\obj\Debug\Andon.UI.Connect.resources
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\obj\Debug\Andon.UI.DisplayScreen.resources
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\obj\Debug\Andon.Properties.Resources.resources
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\obj\Debug\Andon.UI.HomeSlide.resources
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\obj\Debug\Andon.UI.Login.resources
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\obj\Debug\Andon.UI.LoginClose.resources
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\obj\Debug\Andon.UI.MAIN.resources
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\obj\Debug\Andon.csproj.GenerateResource.cache
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\obj\Debug\Andon.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\obj\Debug\Andon.csproj.CopyComplete
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\obj\Debug\Andon.exe
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\obj\Debug\Andon.pdb
+C:\Users\DELL\Desktop\ANDON_FINAL\WindowsFormsApp1\Andon\obj\Debug\Andon.csprojAssemblyReference.cache
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Andon.exe.config
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Andon.exe
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Andon.pdb
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\LiteDB.dll
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Identity.Client.dll
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Newtonsoft.Json.dll
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Quartz.dll
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\System.Buffers.dll
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\System.Memory.dll
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\LiteDB.xml
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Data.SqlClient.pdb
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Data.SqlClient.xml
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Identity.Client.xml
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Newtonsoft.Json.xml
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Quartz.xml
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\System.Buffers.xml
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\System.Memory.xml
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\obj\Debug\Andon.UI.Connect.resources
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\obj\Debug\Andon.UI.DisplayScreen.resources
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\obj\Debug\Andon.Properties.Resources.resources
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\obj\Debug\Andon.UI.HomeSlide.resources
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\obj\Debug\Andon.UI.LoginClose.resources
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\obj\Debug\Andon.UI.MAIN.resources
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\obj\Debug\Andon.csproj.GenerateResource.cache
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\obj\Debug\Andon.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\obj\Debug\Andon.csproj.CopyComplete
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\obj\Debug\Andon.exe
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\obj\Debug\Andon.pdb
+C:\Users\DELL\Desktop\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\obj\Debug\Andon.csprojAssemblyReference.cache
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Andon.exe.config
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Andon.exe
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Andon.pdb
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\LiteDB.dll
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Data.SqlClient.dll
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Identity.Client.dll
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Logging.dll
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Newtonsoft.Json.dll
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Quartz.dll
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\System.Buffers.dll
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\System.Memory.dll
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\System.Numerics.Vectors.dll
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\LiteDB.xml
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Data.SqlClient.pdb
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Data.SqlClient.xml
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Identity.Client.xml
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Logging.xml
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Newtonsoft.Json.xml
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Quartz.xml
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\System.Buffers.xml
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\System.Memory.xml
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\System.Numerics.Vectors.xml
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\obj\Debug\Andon.csproj.AssemblyReference.cache
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\obj\Debug\Andon.UI.Connect.resources
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\obj\Debug\Andon.UI.DisplayScreen.resources
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\obj\Debug\Andon.Properties.Resources.resources
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\obj\Debug\Andon.UI.HomeSlide.resources
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\obj\Debug\Andon.UI.LoginClose.resources
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\obj\Debug\Andon.UI.MAIN.resources
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\obj\Debug\Andon.csproj.GenerateResource.cache
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\obj\Debug\Andon.csproj.CoreCompileInputs.cache
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\obj\Debug\Andon.csproj.CopyComplete
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\obj\Debug\Andon.exe
+D:\COMPANY\ANDON SYSTEM PROGRAM C#\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\obj\Debug\Andon.pdb
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\obj\Debug\Andon.csprojAssemblyReference.cache
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\obj\Debug\Andon.UI.Connect.resources
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\obj\Debug\Andon.UI.DisplayScreen.resources
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\obj\Debug\Andon.Properties.Resources.resources
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\obj\Debug\Andon.UI.HomeSlide.resources
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\obj\Debug\Andon.UI.LoginClose.resources
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\obj\Debug\Andon.UI.MAIN.resources
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\obj\Debug\Andon.csproj.GenerateResource.cache
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\obj\Debug\Andon.csproj.CoreCompileInputs.cache
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\obj\Debug\Andon.exe
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\obj\Debug\Andon.pdb
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Andon.exe.config
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Andon.exe
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Andon.pdb
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Bunifu_UI_v1.5.3.dll
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\LiteDB.dll
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Data.SqlClient.dll
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Identity.Client.dll
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Logging.dll
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Newtonsoft.Json.dll
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Quartz.dll
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\System.Buffers.dll
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\System.Memory.dll
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\System.Numerics.Vectors.dll
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\LiteDB.xml
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Data.SqlClient.pdb
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Data.SqlClient.xml
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Identity.Client.xml
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Logging.xml
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Newtonsoft.Json.xml
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\Quartz.xml
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\System.Buffers.xml
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\System.Memory.xml
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\System.Numerics.Vectors.xml
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+F:\Hung AS Maint\ANDON_FINAL - EDIT 15-06-21\ANDON_FINAL - EDIT 15-06-21\WindowsFormsApp1\Andon\obj\Debug\Andon.csproj.CopyComplete
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\Andon.exe.config
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\Andon.exe
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\Andon.pdb
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\LiteDB.dll
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Data.SqlClient.dll
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Identity.Client.dll
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Logging.dll
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\Newtonsoft.Json.dll
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\Quartz.dll
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\System.Buffers.dll
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\System.Memory.dll
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\System.Numerics.Vectors.dll
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\LiteDB.xml
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Data.SqlClient.pdb
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Data.SqlClient.xml
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.Identity.Client.xml
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Logging.xml
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\Newtonsoft.Json.xml
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\Quartz.xml
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\System.Buffers.xml
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\System.Memory.xml
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\System.Numerics.Vectors.xml
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\obj\Debug\Andon.csproj.AssemblyReference.cache
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\obj\Debug\Andon.csproj.SuggestedBindingRedirects.cache
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\obj\Debug\Andon.UI.Connect.resources
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\obj\Debug\Andon.UI.DisplayScreen.resources
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\obj\Debug\Andon.Properties.Resources.resources
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\obj\Debug\Andon.UI.HomeSlide.resources
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\obj\Debug\Andon.UI.LoginClose.resources
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\obj\Debug\Andon.UI.MAIN.resources
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\obj\Debug\Andon.csproj.GenerateResource.cache
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\obj\Debug\Andon.csproj.CoreCompileInputs.cache
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\obj\Debug\Andon.csproj.CopyComplete
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\obj\Debug\Andon.exe
+D:\NET\ANDON_FINAL - EDIT 02-07-21\ANDON_FINAL - EDIT 02-07-21\WindowsFormsApp1\Andon\obj\Debug\Andon.pdb
