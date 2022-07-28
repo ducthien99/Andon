@@ -215,9 +215,8 @@ namespace Andon.UI
        
         private  void ReadStatusFromPLC()
         {
-            int StatusConnect;
-            int StatusHorning;
-            int StatusRecording;
+            int StatusConnect , StatusHorning , StatusRecording;
+
             Control.plc.GetDevice("M0", out StatusConnect);
             Control.plc.GetDevice("M385", out StatusHorning);
             Control.plc.GetDevice("M386", out StatusRecording);

@@ -17,36 +17,40 @@ namespace Andon.UI
 {
     public partial class MAIN : Form
     {
-        private string[] listmay =      {"BM1" ,"BM2" ,"BM3", "BM4" ,"BM5",
-                                         "BM6" ,"BM7" ,"BM8", "BM9" ,"BM10",
-                                         "GRI" ,"2F1" ,"2F2", "2F3" ,"2F4",
-                                         "2F5" ,"2F6" ,"2F7", "2F8" ,"2F9",
-                                         "2F10","2F11","2F12","2F13","KAB"};// 25 MACHINE
-        ////Địa chỉ giá trị Downtime
-        private string[] ListDowntime = {"D50","D52","D54","D56", "D58", "D60", "D62", "D64", "D66", "D68", "D70", "D72", "D74", "D76",
-                                         "D78","D80","D82","D84","D86","D88","D90","D92","D94","D96","D98"};
-        //Địa chỉ xảy ra tác động gây Downtime
-        private string[] ListFlashDown = { "M60","M61", "M62", "M63", "M64", "M65", "M66","M67", "M68", "M69", "M70",
-                                           "M71","M72","M73","M74","M75","M76","M77","M78","M79","M80","M81","M82","M83","M84"};// 25 MACHINE
-        
-        private List<MachineState> lastestMachineState;
-        //private AppState Page = new AppState();
+        private List<MachineState> _machineStates;
+
         public MAIN()
         {
             InitializeComponent();
-            //Control.AddFormBM();
-            lastestMachineState = new List<MachineState>();
-            using (var db = new MyDbContext())
+            _machineStates = new List<MachineState>()
             {
-                for (int i = 0; i < listmay.Length; i++)
-                {
-                    var machineId = listmay[i];//ten may
+                new MachineState(){Name = "BM1",Address = "M60",AddressTimer = "D50"},
+                new MachineState(){Name = "BM2",Address = "M61",AddressTimer = "D52"},
+                new MachineState(){Name = "BM3",Address = "M62",AddressTimer = "D54"},
+                new MachineState(){Name = "BM4",Address = "M63",AddressTimer = "D56"},
+                new MachineState(){Name = "BM5",Address = "M64",AddressTimer = "D58"},
+                new MachineState(){Name = "BM6",Address = "M65",AddressTimer = "D60"},
+                new MachineState(){Name = "BM7",Address = "M66",AddressTimer = "D62"},
+                new MachineState(){Name = "BM8",Address = "M67",AddressTimer = "D64"},
+                new MachineState(){Name = "BM9",Address = "M68",AddressTimer = "D66"},
+                new MachineState(){Name = "BM10",Address = "M69",AddressTimer = "D68"},
+                new MachineState(){Name = "GRI",Address = "M70",AddressTimer = "D70"},
+                new MachineState(){Name = "2F1",Address = "M71",AddressTimer = "D72"},
+                new MachineState(){Name = "2F2",Address = "M72",AddressTimer = "D74"},
+                new MachineState(){Name = "2F3",Address = "M73",AddressTimer = "D76"},
+                new MachineState(){Name = "2F4",Address = "M74",AddressTimer = "D78"},
+                new MachineState(){Name = "2F5",Address = "M75",AddressTimer = "D80"},
+                new MachineState(){Name = "2F6",Address = "M76",AddressTimer = "D82"},
+                new MachineState(){Name = "2F7",Address = "M77",AddressTimer = "D84"},
+                new MachineState(){Name = "2F8",Address = "M78",AddressTimer = "D86"},
+                new MachineState(){Name = "2F9",Address = "M79",AddressTimer = "D88"},
+                new MachineState(){Name = "2F10",Address = "M80",AddressTimer = "D90"},
+                new MachineState(){Name = "2F11",Address = "M81",AddressTimer = "D92"},
+                new MachineState(){Name = "2F12",Address = "M82",AddressTimer = "D94"},
+                new MachineState(){Name = "2F13",Address = "M83",AddressTimer = "D96"},
+                new MachineState(){Name = "KAB",Address = "M84",AddressTimer = "D98"}
+            };
 
-                    var newMachine = new MachineState() { Name = machineId, Address = ListFlashDown[i], State = 1, AddressTimer = ListDowntime[i], Date = DateTime.Now, FlagDown = false };
-                    lastestMachineState.Add(newMachine);
-
-                }
-            }
             new Scheduler().Start();
             Control.SetInitial(this);
             AbrirFormulario<HomeSlide>();
@@ -153,24 +157,14 @@ namespace Andon.UI
             //Console.WriteLine("Trang thai trang chinh" + ":" + AppState.PageSlide);
             //Console.WriteLine("Trang thai trang hien thi" + ":" + AppState.PageSreenDiplay);
             //Console.WriteLine("Trang thai chuc nang record du lieu" + ":" + AppState.StatusRecord);
-            if (Dataconnect == 1)
-            {
-                //Control.IsConnect = true;
-                AppState.StatusConnect = true;
-
-            }
-            else
-            {
-                //Control.IsConnect = false;
-                AppState.StatusConnect = false;
-            }
+            
+            AppState.StatusConnect = Dataconnect == 1;
 
 
             if ((Data == 1 || Data1 == 1))
             {
                 AbrirFormulario<DisplayScreen>();
                 status = true;
-                //Console.WriteLine("ok");
                 AppState.PageSlide = false;
                 AppState.PageSreenDiplay = true;
 
@@ -210,69 +204,50 @@ namespace Andon.UI
         private void timer2_Tick(object sender, EventArgs e)
         {
             var listDownTimeToAdd = new List<MachineState>();
-            Int32[] ValueDowntime = new Int32[25];
-            int[] StatusFlashDown = new int[25];
             
             if (AppState.StatusConnect && AppState.StatusRecord)
             {
-                for (int i = 0; i < 25; i++)
+                foreach(var machineState in _machineStates)
                 {
-                    Control.plc.GetDevice(ListDowntime[i], out ValueDowntime[i]);
-                    Control.plc.GetDevice(ListFlashDown[i], out StatusFlashDown[i]);
-                    
+                    int mainState , downtime;
+                    Control.plc.GetDevice(machineState.AddressTimer, out downtime);
+                    Control.plc.GetDevice(machineState.Address, out mainState);
 
-                    //downtime 
-                    var mc = lastestMachineState.FirstOrDefault(x => x.AddressTimer.ToLower() == ListDowntime[i].ToLower());
-                    var mainState = StatusFlashDown[i];
-                    var downtime = ValueDowntime[i];
                     if (mainState == 1)
                     {
-                        var dt = DateTime.Now;
-                        if (mc.State == 1) { mc.Date = dt; }
-                        mc.State = 0;
-                        mc.Downtime = ValueDowntime[i];
-                        //Console.WriteLine("Address: " + mc.AddressTimer);
-                        //Console.WriteLine("mainState: " + mainState);
-                        //Console.WriteLine("downtime: " + mc.Downtime);
-
+                        if (machineState.State == 1) { machineState.Date = DateTime.Now; }
+                        machineState.State = 0;
+                        machineState.Downtime = downtime;
                     }
-                    else if (mc.Downtime > 0)
+                    else if (machineState.Downtime > 0)
                     {
-                        mc.State = 1;
+                        machineState.State = 1;
                         var now = DateTime.Now;
                         var dateStart = new DateTime(now.Ticks - downtime);
-                        //Console.WriteLine("Address: " + mc.AddressTimer);
-                        //Console.WriteLine("mainState: " + mainState);
-                        //Console.WriteLine("downtime: " + mc.Downtime);
+
                         listDownTimeToAdd.Add(new MachineState
                         {
-                            Downtime = mc.Downtime,
-                            Name = mc.Name,
+                            Downtime = machineState.Downtime,
+                            Name = machineState.Name,
                             FlagDown = true,
-                            Address = mc.Address,
-                            AddressTimer = mc.AddressTimer,
-                            //Date = DateTime.Now,
-                            Date = mc.Date,
+                            Address = machineState.Address,
+                            AddressTimer = machineState.AddressTimer,
+                            Date = machineState.Date,
                             DateStart = dateStart,
                             State = 1
                         });
-                        mc.Downtime = 0;
-                        //Console.WriteLine(mc.Date);
+                        machineState.Downtime = 0;
                     }
                 }
                 if (listDownTimeToAdd.Count > 0)
                 {
                     Console.WriteLine("Record" + listDownTimeToAdd.Count.ToString());
-                    // Task.Run(() =>
-                    //{
                     using (var db = new MyDbContext())
                     {
                         db.MachineCollection.InsertBulk(listDownTimeToAdd);
-
-                        ////Insert
                         listDownTimeToAdd.Clear();
+                        db.Dispose();
                     }
-                    //});
                 }
             }
            

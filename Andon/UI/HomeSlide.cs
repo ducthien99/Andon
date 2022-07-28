@@ -2,13 +2,6 @@
 using System;
 using System.Drawing;
 using System.Windows.Forms;
-using Andon.Entity;
-using Andon.Utils;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.IO;
-using System.Xml;
 using Andon.ControlApp;
 namespace Andon.UI
 {

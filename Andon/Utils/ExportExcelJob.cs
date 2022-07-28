@@ -109,8 +109,7 @@ namespace Andon.Utils
                     File.WriteAllText(folderName + "/RunningTime_" + timestamp + ".csv", csv1.ToString());
                     
                 }
-
-
+                db.Dispose();
             }
         }
     }
