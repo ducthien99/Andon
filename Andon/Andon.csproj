@@ -114,6 +114,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ControlApp\AppState.cs" />
+    <Compile Include="Entity\Data.cs" />
+    <Compile Include="Entity\MachineError.cs" />
     <Compile Include="Entity\MachineState.cs" />
     <Compile Include="Entity\MyDbContext.cs" />
     <Compile Include="Control.cs" />

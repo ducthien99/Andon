@@ -17,39 +17,12 @@ namespace Andon.UI
 {
     public partial class MAIN : Form
     {
-        private List<MachineState> _machineStates;
+        private MachineState[] _machineStates = new MachineState[25];
 
         public MAIN()
         {
             InitializeComponent();
-            _machineStates = new List<MachineState>()
-            {
-                new MachineState(){Name = "BM1",Address = "M60",AddressTimer = "D50"},
-                new MachineState(){Name = "BM2",Address = "M61",AddressTimer = "D52"},
-                new MachineState(){Name = "BM3",Address = "M62",AddressTimer = "D54"},
-                new MachineState(){Name = "BM4",Address = "M63",AddressTimer = "D56"},
-                new MachineState(){Name = "BM5",Address = "M64",AddressTimer = "D58"},
-                new MachineState(){Name = "BM6",Address = "M65",AddressTimer = "D60"},
-                new MachineState(){Name = "BM7",Address = "M66",AddressTimer = "D62"},
-                new MachineState(){Name = "BM8",Address = "M67",AddressTimer = "D64"},
-                new MachineState(){Name = "BM9",Address = "M68",AddressTimer = "D66"},
-                new MachineState(){Name = "BM10",Address = "M69",AddressTimer = "D68"},
-                new MachineState(){Name = "GRI",Address = "M70",AddressTimer = "D70"},
-                new MachineState(){Name = "2F1",Address = "M71",AddressTimer = "D72"},
-                new MachineState(){Name = "2F2",Address = "M72",AddressTimer = "D74"},
-                new MachineState(){Name = "2F3",Address = "M73",AddressTimer = "D76"},
-                new MachineState(){Name = "2F4",Address = "M74",AddressTimer = "D78"},
-                new MachineState(){Name = "2F5",Address = "M75",AddressTimer = "D80"},
-                new MachineState(){Name = "2F6",Address = "M76",AddressTimer = "D82"},
-                new MachineState(){Name = "2F7",Address = "M77",AddressTimer = "D84"},
-                new MachineState(){Name = "2F8",Address = "M78",AddressTimer = "D86"},
-                new MachineState(){Name = "2F9",Address = "M79",AddressTimer = "D88"},
-                new MachineState(){Name = "2F10",Address = "M80",AddressTimer = "D90"},
-                new MachineState(){Name = "2F11",Address = "M81",AddressTimer = "D92"},
-                new MachineState(){Name = "2F12",Address = "M82",AddressTimer = "D94"},
-                new MachineState(){Name = "2F13",Address = "M83",AddressTimer = "D96"},
-                new MachineState(){Name = "KAB",Address = "M84",AddressTimer = "D98"}
-            };
+            _machineStates = Data.machineStates();
 
             new Scheduler().Start();
             Control.SetInitial(this);
@@ -152,10 +125,6 @@ namespace Andon.UI
             Control.plc.GetDevice("M204", out int Data);
             Control.plc.GetDevice("M205", out int Data1);
             Control.plc.GetDevice("M0", out int Dataconnect);
-            //Console.WriteLine("Trang thai trang ket noi" + ":" + AppState.PageConnect);
-            //Console.WriteLine("Trang thai trang chinh" + ":" + AppState.PageSlide);
-            //Console.WriteLine("Trang thai trang hien thi" + ":" + AppState.PageSreenDiplay);
-            //Console.WriteLine("Trang thai chuc nang record du lieu" + ":" + AppState.StatusRecord);
 
             AppState.StatusConnect = Dataconnect == 1;
 
@@ -304,7 +273,8 @@ namespace Andon.UI
 
         private void Main_Load(object sender, EventArgs e)
         {
-            DisplayScreen.AddFormBM();
+            var displayScreen = new DisplayScreen();
+            displayScreen.FormLoad();
         }
     }
 }
