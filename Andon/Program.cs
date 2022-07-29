@@ -28,7 +28,7 @@ namespace Andon.UI
             Control.plc.SetDevice("M5", 1);
             Control.plc.SetDevice("M5", 0);
 
-            // Problem is logged, Can't continue, so quit the application:
+            // Can't continue, so quit the application:
             Environment.Exit(-1);
         }
 
