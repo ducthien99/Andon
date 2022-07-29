@@ -11,10 +11,25 @@ namespace Andon.UI
         [STAThread]
         static void Main()
         {
+            AppDomain.CurrentDomain.UnhandledException += UnhandledException;
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MAIN());
            
+        }
+
+        static void UnhandledException(object sender, UnhandledExceptionEventArgs e)
+        {
+            var exc = e.ExceptionObject as Exception;
+            if (exc != null)
+            {
+                MessageBox.Show(exc.ToString(),"error", MessageBoxButtons.OK);
+            }
+            Control.plc.SetDevice("M5", 1);
+            Control.plc.SetDevice("M5", 0);
+
+            // Problem is logged, Can't continue, so quit the application:
+            Environment.Exit(-1);
         }
 
     }
