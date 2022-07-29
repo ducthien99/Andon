@@ -36,8 +36,6 @@ namespace Andon.UI
 
             }else if((TextboxUser.Text == USENAME) && (TextboxPass.Text == PASSWORD))
             {
-                Control.plc.SetDevice("M5", 1);
-                Control.plc.SetDevice("M5", 0);
                 Application.Exit();
             }
             else
@@ -53,11 +51,6 @@ namespace Andon.UI
                     "Login", MessageBoxButtons.OK,
                     MessageBoxIcon.Exclamation,
                     MessageBoxDefaultButton.Button1);
-        }
-
-        private void ButtonLogin_Click(object sender, EventArgs e)
-        {
-            Login();
         }
 
         private void OnValueChanged(object sender, EventArgs e)
@@ -77,6 +70,11 @@ namespace Andon.UI
                 //IsCheck = false;
                 TextboxPass.isPassword = true;
             }
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            Login();
         }
     }
 }

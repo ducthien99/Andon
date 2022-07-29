@@ -68,8 +68,6 @@ namespace Andon.UI
             Control.plc.SetDevice("M10", 0);
             Control.plc.SetDevice("M11", 1);
             Control.plc.SetDevice("M11", 0);
-
-
         }
 
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
@@ -91,7 +89,6 @@ namespace Andon.UI
 
             if (formulario == null)
             {
-
                 formulario = new MiForm();
                 formulario.TopLevel = false;
                 formulario.FormBorderStyle = FormBorderStyle.None;
@@ -104,7 +101,6 @@ namespace Andon.UI
                 formulario.FormClosed += new FormClosedEventHandler(CloseForms);
 
             }
-            
             else
             {
                 formulario.BringToFront();
@@ -116,23 +112,27 @@ namespace Andon.UI
                 ButtonHome.BackColor = Color.FromArgb(4, 41, 68);
             if (Application.OpenForms["Connect"] == null)
                 ButtonConnect.BackColor = Color.FromArgb(4, 41, 68);
-
-
         }
 
-      
-      
+
+
         static bool status = false;
         private void MaintClosing(object sender, FormClosingEventArgs e)
         {
-            Control.plc.SetDevice("M5", 1);
-            Control.plc.SetDevice("M5", 0);
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                e.Cancel = true;
+            }
+            else
+            {
+                Control.plc.SetDevice("M5", 1);
+                Control.plc.SetDevice("M5", 0);
+            }
         }
 
         private void ButtonCloseForm_Click(object sender, EventArgs e)
         {
             new LoginClose().ShowDialog();
-
         }
 
         private void ButtonHideForm_Click(object sender, EventArgs e)
@@ -146,10 +146,9 @@ namespace Andon.UI
             Control.DoMaximed(this, btn);
         }
 
-      
+
         private void Timer1_Tick(object sender, EventArgs e)
         {
-
             Control.plc.GetDevice("M204", out int Data);
             Control.plc.GetDevice("M205", out int Data1);
             Control.plc.GetDevice("M0", out int Dataconnect);
@@ -157,9 +156,8 @@ namespace Andon.UI
             //Console.WriteLine("Trang thai trang chinh" + ":" + AppState.PageSlide);
             //Console.WriteLine("Trang thai trang hien thi" + ":" + AppState.PageSreenDiplay);
             //Console.WriteLine("Trang thai chuc nang record du lieu" + ":" + AppState.StatusRecord);
-            
-            AppState.StatusConnect = Dataconnect == 1;
 
+            AppState.StatusConnect = Dataconnect == 1;
 
             if ((Data == 1 || Data1 == 1))
             {
@@ -173,8 +171,7 @@ namespace Andon.UI
             }
             else /*if(Data == 0 && Data1 == 0)*/
             {
-              
-                if (status && AppState.Count ==0)
+                if (status && AppState.Count == 0)
                 {
                     AbrirFormulario<HomeSlide>();
                     //Control.IsHome = true;
@@ -182,7 +179,7 @@ namespace Andon.UI
                     //Control.IsDisplay = false;
                     AppState.PageSlide = true;
                     AppState.PageSreenDiplay = false;
-                    status = false;                  
+                    status = false;
                 }
                 //if(Page.PageHome == true)
                 //{
@@ -196,20 +193,18 @@ namespace Andon.UI
                 //{
                 //    AbrirFormulario<Connect>();
                 //}
-
             }
-
         }
-       
+
         private void timer2_Tick(object sender, EventArgs e)
         {
             var listDownTimeToAdd = new List<MachineState>();
-            
+
             if (AppState.StatusConnect && AppState.StatusRecord)
             {
-                foreach(var machineState in _machineStates)
+                foreach (var machineState in _machineStates)
                 {
-                    int mainState , downtime;
+                    int mainState, downtime;
                     Control.plc.GetDevice(machineState.AddressTimer, out downtime);
                     Control.plc.GetDevice(machineState.Address, out mainState);
 
@@ -250,7 +245,7 @@ namespace Andon.UI
                     }
                 }
             }
-           
+
         }
 
         private void Timer3_Tick(object sender, EventArgs e)
@@ -259,21 +254,21 @@ namespace Andon.UI
             var DateScheduler = "23:59:59";//Thời gian disable read data downtime(kết thúc downtime để xuất file data)
             var DateScheduler1 = "00:00:05";//Thời gian enable read data downtime(sau khi xuất file xong sẽ cho phép đọc downtime)
             var DateScheduler2 = "00:00:10";//Thời gian reset giá trị time running và issue
-            if (DateReset== DateScheduler)
-                { Control.plc.SetDevice("M10", 1); }
-            else if(DateReset == DateScheduler1)
+            if (DateReset == DateScheduler)
+            { Control.plc.SetDevice("M10", 1); }
+            else if (DateReset == DateScheduler1)
             {
                 Control.plc.SetDevice("M10", 0);
             }
-            if(DateReset == DateScheduler2)
+            if (DateReset == DateScheduler2)
             {
                 Control.plc.SetDevice("M3", 1);
                 Control.plc.SetDevice("M3", 0);
-            }    
-            
+            }
+
         }
 
-       
+
         private void ButtonMenu_Click_1(object sender, EventArgs e)
         {
             if (panel2.Width == 40)
@@ -294,8 +289,6 @@ namespace Andon.UI
 
         private void ButtonHome_Click_1(object sender, EventArgs e)
         {
-            
-
             // Control.IsHome = true;
             AppState.PageSlide = true;
             AppState.PageConnect = false;
@@ -307,12 +300,6 @@ namespace Andon.UI
             AppState.PageConnect = true;
             AppState.PageSlide = false;
             AbrirFormulario<Connect>();
-           // Console.WriteLine(AppState.PageConnect);
-            //Control.IsHome = false;
-
-            //Control.IsConnection = true;
-            
-            
         }
 
         private void Main_Load(object sender, EventArgs e)
