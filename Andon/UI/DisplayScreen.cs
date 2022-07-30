@@ -17,41 +17,53 @@ namespace Andon.UI
     public partial class DisplayScreen : Form
     {
         private MachineState[] _machineStates = new MachineState[25];
-        private List<MachineError> _machineErrors = new List<MachineError>();
+        //private List<MachineError> _machineErrors = new List<MachineError>();
+        private GroupBox[] _groupBoxes = new GroupBox[25];
+        private List<int> _ints;
         
         public DisplayScreen()
         {
             InitializeComponent();
             _machineStates = Data.machineStates();
-            tableLayoutPanel1.Controls.Clear();
+            _ints = new List<int>();
+
         }
 
-        private void CheckState()
+        private void ShowListMachineError()
         {
             for (int i = 0; i < 25; i++)
             {
+                string name = _machineStates[i].Name;
                 int valuemaint, valuepro;
                 Control.plc.GetDevice(_machineStates[i].AddressMaint, out valuemaint);
                 Control.plc.GetDevice(_machineStates[i].AddressPro, out valuepro);
                 if (valuemaint == 1 || valuepro == 1)
                 {
-                    _machineErrors.Add(new MachineError(_machineStates[i].Name, valuemaint, valuepro));
+                    if (_ints.Contains(i))
+                    {
+                        _groupBoxes[i].Visible = true;
+                        UpdateColor(i,name,valuemaint,valuepro);
+                        continue;
+                    }
+                    else
+                    {
+                        _groupBoxes[i] = CreateGroupBox(name, valuemaint, valuepro);
+                        tableLayoutPanel1.Controls.Add(_groupBoxes[i]);
+                        //_machineErrors.Add(new MachineError(_machineStates[i].Name, valuemaint, valuepro));
+                        _ints.Add(i);
+
+                    }
+
+                }
+                else
+                {
+                    if (_ints.Contains(i))
+                    {
+                        _groupBoxes[i].Visible = false;
+                    }
                 }
             }
-        }
 
-        private void ShowListMachineError()
-        {
-            CheckState();
-            foreach(var item in _machineErrors)
-            {
-                tableLayoutPanel1.Controls.Add(CreateGroupBox(item.Name, item.Valuemaint, item.Valuepro));
-            }
-        }
-
-        public void FormLoad()
-        {
-            ShowListMachineError();
         }
 
         private GroupBox CreateGroupBox(string name,int valuemaint,  int valuepro)
@@ -94,6 +106,25 @@ namespace Andon.UI
             groupBox.Controls.Add(button);
             return groupBox;
         }
+        private void UpdateColor(int i,string name,int valuemaint, int valuepro)
+        {
+            BunifuThinButton2 button = _groupBoxes[i].Controls.Find("Button" + name, false).FirstOrDefault() as BunifuThinButton2;
+            if (valuemaint == 1 && valuepro == 0)
+            {
+                button.IdleFillColor = Color.Red;
+                button.ActiveFillColor = Color.Red;
+            }
+            else if (valuepro == 1 && valuemaint == 0)
+            {
+                button.IdleFillColor = Color.Lime;
+                button.ActiveFillColor = Color.Lime;
+            }
+            else if (valuemaint == 1 && valuepro == 1)
+            {
+                button.IdleFillColor = Color.RoyalBlue;
+                button.ActiveFillColor = Color.RoyalBlue;
+            }
+        }
 
         private void Timer1_Tick(object sender, EventArgs e)
         {
@@ -118,8 +149,6 @@ namespace Andon.UI
                 Control.plc.GetDevice("M205", out StatusUpdate1);
                 if (StatusUpdate == 1|| StatusUpdate1==1)
                 {
-                    tableLayoutPanel1.Controls.Clear();
-                    _machineErrors.Clear();
                     ShowListMachineError();
                 }
                 else

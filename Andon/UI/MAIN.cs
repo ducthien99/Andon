@@ -273,8 +273,6 @@ namespace Andon.UI
 
         private void Main_Load(object sender, EventArgs e)
         {
-            var displayScreen = new DisplayScreen();
-            displayScreen.FormLoad();
         }
     }
 }
