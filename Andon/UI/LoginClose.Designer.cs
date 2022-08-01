@@ -30,7 +30,6 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.btnLogin = new System.Windows.Forms.Button();
             this.CheckBoxShowPass = new Bunifu.Framework.UI.BunifuCheckbox();
             this.bunifuCustomLabel3 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.panel9 = new System.Windows.Forms.Panel();
@@ -40,6 +39,7 @@
             this.panel6 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.btnLogin = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -79,19 +79,6 @@
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(645, 59);
             this.panel10.TabIndex = 29;
-            // 
-            // btnLogin
-            // 
-            this.btnLogin.BackColor = System.Drawing.Color.RoyalBlue;
-            this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.Location = new System.Drawing.Point(171, 12);
-            this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(269, 52);
-            this.btnLogin.TabIndex = 15;
-            this.btnLogin.Text = "LOGIN";
-            this.btnLogin.UseVisualStyleBackColor = false;
-            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // CheckBoxShowPass
             // 
@@ -208,6 +195,19 @@
             this.panel5.Size = new System.Drawing.Size(645, 76);
             this.panel5.TabIndex = 21;
             // 
+            // btnLogin
+            // 
+            this.btnLogin.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.Location = new System.Drawing.Point(171, 12);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(269, 52);
+            this.btnLogin.TabIndex = 15;
+            this.btnLogin.Text = "LOGIN";
+            this.btnLogin.UseVisualStyleBackColor = false;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
+            // 
             // panel4
             // 
             this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
@@ -237,6 +237,7 @@
             // 
             // LoginClose
             // 
+            this.AcceptButton = this.btnLogin;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightBlue;
@@ -246,6 +247,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "LoginClose";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "LoginClose";
             this.panel1.ResumeLayout(false);
             this.panel10.ResumeLayout(false);
@@ -256,7 +258,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel5.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.AcceptButton = btnLogin;
+
         }
 
         #endregion

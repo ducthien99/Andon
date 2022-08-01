@@ -147,18 +147,13 @@
             this.Transition1.AnimationType = BunifuAnimatorNS.AnimationType.Mosaic;
             this.Transition1.Cursor = null;
             animation1.AnimateOnlyDifferences = true;
-            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
             animation1.LeafCoeff = 0F;
             animation1.MaxTime = 1F;
             animation1.MinTime = 0F;
-            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
-            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
             animation1.MosaicSize = 20;
             animation1.Padding = new System.Windows.Forms.Padding(30);
             animation1.RotateCoeff = 0F;
             animation1.RotateLimit = 0F;
-            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
-            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
             animation1.TimeCoeff = 0F;
             animation1.TransparencyCoeff = 0F;
             this.Transition1.DefaultAnimation = animation1;
@@ -311,6 +306,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.ButtonMenu)).EndInit();
             this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 
         }
 
