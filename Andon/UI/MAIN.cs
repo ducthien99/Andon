@@ -28,8 +28,6 @@ namespace Andon.UI
             Control.SetInitial(this);
             AbrirFormulario<HomeSlide>();
             AppState.PageConnect = false;
-            AppState.PageSlide = true;
-            AppState.PageSreenDiplay = false;
             AppState.StatusConnect = false;
             AppState.FlagCleanScreen = true;
             AppState.Count = 0;
@@ -59,7 +57,7 @@ namespace Andon.UI
 
             formulario = panelDesktop.Controls.OfType<MiForm>().FirstOrDefault();//Busca en la colecion el formulario
                                                                                  //si el formulario/instancia no existe
-
+            
             if (formulario == null)
             {
                 formulario = new MiForm();
@@ -122,50 +120,32 @@ namespace Andon.UI
 
         private void Timer1_Tick(object sender, EventArgs e)
         {
+            Reset();
             Control.plc.GetDevice("M204", out int Data);
             Control.plc.GetDevice("M205", out int Data1);
             Control.plc.GetDevice("M0", out int Dataconnect);
 
             AppState.StatusConnect = Dataconnect == 1;
 
-            if ((Data == 1 || Data1 == 1))
+            if(Dataconnect == 1)
             {
-                AbrirFormulario<DisplayScreen>();
-                status = true;
-                AppState.PageSlide = false;
-                AppState.PageSreenDiplay = true;
-
-                //Control.IsDisplay = true;
-                //Control.IsHome = false;
-            }
-            else /*if(Data == 0 && Data1 == 0)*/
-            {
-                if (status && AppState.Count == 0)
+                MachineLog();
+                if ((Data == 1 || Data1 == 1))
                 {
-                    AbrirFormulario<HomeSlide>();
-                    //Control.IsHome = true;
-                    //Control.IsConnection = true;
-                    //Control.IsDisplay = false;
-                    AppState.PageSlide = true;
-                    AppState.PageSreenDiplay = false;
-                    status = false;
+                    AbrirFormulario<DisplayScreen>();
+                    status = true;
                 }
-                //if(Page.PageHome == true)
-                //{
-                //    AbrirFormulario<HomeSlide>();
-                //}    
-                //else if(Page.PageSreenDiplay == true && Page.StatusConnect)
-                //{
-                //    AbrirFormulario<DisplayScreen>();
-                //}    
-                //else if(Page.PageConnect == true)
-                //{
-                //    AbrirFormulario<Connect>();
-                //}
+                else /*if(Data == 0 && Data1 == 0)*/
+                {
+                    if(status && AppState.Count == 0)
+                    {
+                        AbrirFormulario<HomeSlide>();
+                        status = false;
+                    }
+                }
             }
         }
-
-        private void timer2_Tick(object sender, EventArgs e)
+        private void MachineLog()
         {
             var listDownTimeToAdd = new List<MachineState>();
 
@@ -214,10 +194,9 @@ namespace Andon.UI
                     }
                 }
             }
-
         }
 
-        private void Timer3_Tick(object sender, EventArgs e)
+        private void Reset()
         {
             var DateReset = DateTime.Now.ToString("HH:mm:ss");
             var DateScheduler = "23:59:59";//Thời gian disable read data downtime(kết thúc downtime để xuất file data)
@@ -234,7 +213,6 @@ namespace Andon.UI
                 Control.plc.SetDevice("M3", 1);
                 Control.plc.SetDevice("M3", 0);
             }
-
         }
 
 
@@ -258,17 +236,14 @@ namespace Andon.UI
 
         private void ButtonHome_Click_1(object sender, EventArgs e)
         {
-            // Control.IsHome = true;
-            AppState.PageSlide = true;
-            AppState.PageConnect = false;
             AbrirFormulario<HomeSlide>();
+            Timer1.Start();
         }
 
         private void ButtonConnect_Click_2(object sender, EventArgs e)
         {
-            AppState.PageConnect = true;
-            AppState.PageSlide = false;
             AbrirFormulario<Connect>();
+            Timer1.Stop();
         }
 
         private void Main_Load(object sender, EventArgs e)

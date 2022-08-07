@@ -125,7 +125,7 @@ namespace Andon.UI
                 Control.plc.GetDevice(ListCounterIssue[i], out ValueIssue[i]);
                 Control.plc.GetDevice(ListTimeRun[i], out ValueTimeRun[i]);
             }
-            if (AppState.StatusConnect && AppState.PageSlide)
+            if (AppState.StatusConnect)
             {
                 
                 if (j==5)

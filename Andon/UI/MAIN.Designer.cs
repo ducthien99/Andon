@@ -269,18 +269,6 @@
             this.Timer1.Interval = 1000;
             this.Timer1.Tick += new System.EventHandler(this.Timer1_Tick);
             // 
-            // timer2
-            // 
-            this.timer2.Enabled = true;
-            this.timer2.Interval = 1000;
-            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
-            // 
-            // Timer3
-            // 
-            this.Timer3.Enabled = true;
-            this.Timer3.Interval = 1000;
-            this.Timer3.Tick += new System.EventHandler(this.Timer3_Tick);
-            // 
             // bunifuElipse1
             // 
             this.bunifuElipse1.ElipseRadius = 5;
