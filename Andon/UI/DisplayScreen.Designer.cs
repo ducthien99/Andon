@@ -63,12 +63,6 @@
             this.panel2.Size = new System.Drawing.Size(1387, 788);
             this.panel2.TabIndex = 9;
             // 
-            // Timer1
-            // 
-            this.Timer1.Enabled = true;
-            this.Timer1.Interval = 500;
-            this.Timer1.Tick += new System.EventHandler(this.Timer1_Tick);
-            // 
             // DisplayScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);

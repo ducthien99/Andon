@@ -34,6 +34,8 @@ namespace Andon.UI
             _timer = new Timer();
             _timer.Interval = (200); // 0.2 second
             _timer.Tick += new EventHandler(ScrollTimer_Tick);
+            InitForm();
+
         }
         #endregion
 
@@ -84,7 +86,6 @@ namespace Andon.UI
                 tableLayoutPanel1.AutoScroll=false;
                 tableLayoutPanel1.RowStyles[0].SizeType = SizeType.Percent;
                 tableLayoutPanel1.RowStyles[1].SizeType = SizeType.Percent;
-
                 _timer.Stop();
             }
         }
@@ -93,8 +94,8 @@ namespace Andon.UI
         {
             GroupBox groupBox = new GroupBox();
             groupBox.Name = "Flow" + name;
-            groupBox.Size = new Size(405, 364);
-            groupBox.Dock = DockStyle.Fill;
+            groupBox.Size = new Size(400, 364);
+            //groupBox.Dock = DockStyle.Fill;
 
             BunifuThinButton2 button = new BunifuThinButton2();
             button.ButtonText = name;
@@ -148,6 +149,11 @@ namespace Andon.UI
                 button.ActiveFillColor = Color.RoyalBlue;
             }
         }
+
+        private void InitForm()
+        {
+            ShowListMachineError();
+        }
         #endregion
 
         #region event
@@ -167,41 +173,6 @@ namespace Andon.UI
                 tableLayoutPanel1.VerticalScroll.Value = scrollPosition - STEP_SIZE < 0 ? 0: scrollPosition - STEP_SIZE;
                 if (tableLayoutPanel1.VerticalScroll.Value == 0)
                     _scrollDown = true;
-            }
-        }
-
-        private void Timer1_Tick(object sender, EventArgs e)
-        {
-            Control.plc.GetDevice("M0", out int Dataconnect);
-            
-            if (Dataconnect == 1)
-            {
-                //Control.IsConnect = true;
-                AppState.StatusConnect = true;
-
-            }
-            else
-            {
-                //Control.IsConnect = false;
-                AppState.StatusConnect = false;
-            }
-            if (AppState.StatusConnect && AppState.PageSreenDiplay)
-            {
-                int StatusUpdate;
-                int StatusUpdate1;
-                Control.plc.GetDevice("M204", out StatusUpdate);
-                Control.plc.GetDevice("M205", out StatusUpdate1);
-                if (StatusUpdate == 1|| StatusUpdate1==1)
-                {
-                    ShowListMachineError();
-                }
-                else
-                {
-                    if (AppState.Count > 0)
-                    {
-                        tableLayoutPanel1.Controls.Clear();
-                    }
-                }
             }
         }
 
