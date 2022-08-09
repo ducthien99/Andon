@@ -16,6 +16,7 @@ namespace Andon.ControlApp
         public static bool StatusConnect  { get; set; }
         public static bool FlagCleanScreen { get; set; }
         public static int Count { get; set; }
+        public static bool IsRecord { get; set; } = false;
     }
     
 }

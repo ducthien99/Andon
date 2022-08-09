@@ -114,11 +114,15 @@ namespace Andon.UI
             {
                 lable_status_connect.Text = "Connect Success!";
                 lable_status_connect.ForeColor = Color.Lime;
+                ButtonHorn.Visible = true;
+                ButtonRecord.Visible = true;
             }
             else
             {
                 lable_status_connect.Text = "Please Connect PLC!";
                 lable_status_connect.ForeColor = Color.Red;
+                ButtonHorn.Visible = false;
+                ButtonRecord.Visible = false;
             }
         }
 
@@ -190,6 +194,7 @@ namespace Andon.UI
                 Control.plc.GetCpuType(out string TypeCPU, out int TypeCpu);
                 LableTypeCPU.Text = TypeCPU;
                 ButtonHorn.Visible = true;
+                ButtonRecord.Visible = true;
                 //AppState.PageConnect = true;
             }
             if (StatusConnect == 0)
@@ -203,6 +208,7 @@ namespace Andon.UI
                 lable_status_connect.Text = "Please Connect PLC!";
                 lable_status_connect.ForeColor = Color.Red;
                 ButtonHorn.Visible = false;
+                ButtonRecord.Visible= false;
                 //AppState.PageConnect = false;
             }
             if (StatusHorning == 0)
@@ -254,9 +260,7 @@ namespace Andon.UI
             var result = floginClose.ShowDialog();
             if (floginClose._LoginSuccess)
             {
-                MAIN fmain = new MAIN();
-                fmain.Reset();
-                fmain.MachineLog();
+                AppState.IsRecord = true;
             }
         }
     }
