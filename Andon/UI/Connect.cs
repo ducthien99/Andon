@@ -108,9 +108,7 @@ namespace Andon.UI
 
         private void Connect_Load(object sender, EventArgs e)
         {
-            
             ButtonHorn.Visible = false;
-            //ButtonControlTest.Visible = false;
             ButtonRecord.Visible = false;
             if (AppState.StatusConnect == true)
             {
@@ -130,28 +128,6 @@ namespace Andon.UI
             Control.plc.SetDevice("M4", 0);
             Control.plc.SetDevice("M8", 1);
             Control.plc.SetDevice("M8", 0);
-            //if (Status.StatusConnect == true)
-            //{
-            //    LableTypeCPU.Visible = true;
-            //    LableCPUname.Visible = true;
-            //    lable_status_connect.Text = "Connect Success!";
-            //    lable_status_connect.ForeColor = Color.Lime;
-            //    SendDataClock();
-            //    Control.plc.GetCpuType(out string TypeCPU, out int TypeCpu);
-            //    LableTypeCPU.Text = TypeCPU;
-            //    ButtonHorn.Visible = true;
-            //    Status.PageConnect = true;
-            //}
-            //else
-            //{
-            //    LableTypeCPU.Visible = false;
-            //    LableCPUname.Visible = false;
-            //    //ButtonControlTest.Visible = false;
-            //    ButtonHorn.Visible = false;
-            //    lable_status_connect.Text = "Please Connect PLC!";
-            //    lable_status_connect.ForeColor = Color.Red;
-
-            //}
         }
 
         private void ButtonDisconnect_Click_1(object sender, EventArgs e)
@@ -160,24 +136,6 @@ namespace Andon.UI
             Control.plc.SetDevice("M5", 0);
             Control.plc.SetDevice("M9", 1);
             Control.plc.SetDevice("M9", 0);
-            //Control.plc.SetDevice("M5", 1);
-            //Control.plc.SetDevice("M5", 0);
-            //LableTypeCPU.Visible = false;
-            //LableCPUname.Visible = false;
-           
-            //if (Status.StatusConnect == true)
-            //{
-            //    lable_status_connect.Text = "Connect Success!";
-            //    lable_status_connect.ForeColor = Color.Lime;
-            //    Status.StatusConnect = true;
-            //}
-            //else
-            //{
-            //    lable_status_connect.Text = "Please Connect PLC!";
-            //    lable_status_connect.ForeColor = Color.Red;
-            //    Status.StatusConnect = false;
-            //}
-               
           
         }
        
@@ -274,32 +232,7 @@ namespace Andon.UI
             if(AppState.PageConnect)
             {
                 ReadStatusFromPLC();
-                Control.plc.GetDevice("M0", out int Dataconnect);
-
-                if (Dataconnect == 1)
-                {
-                    //Control.IsConnect = true;
-                    AppState.StatusConnect = true;
-
-                }
-                else
-                {
-                    //Control.IsConnect = false;
-                    AppState.StatusConnect = false;
-                }
-            }
-            
-            if (AppState.StatusConnect && AppState.PageConnect)
-            {
-                lable_status_connect.Text = "Connect Success!";
-                lable_status_connect.ForeColor = Color.Lime;
-                //ButtonControlTest.Visible = true;
-                ButtonHorn.Visible = true;
-                ButtonRecord.Visible = true;
-                LableCPUname.Visible = true;
-                LableTypeCPU.Visible = true;
-                
-                if (AppState.StatusHorn==true)
+                if (AppState.StatusHorn == true)
                 {
                     ButtonHorn.IdleFillColor = Color.Lime;
                     ButtonHorn.IdleForecolor = Color.White;
@@ -309,62 +242,22 @@ namespace Andon.UI
                     ButtonHorn.IdleFillColor = Color.Red;
                     ButtonHorn.IdleForecolor = Color.White;
                 }
-                if (AppState.StatusRecord)
-                {
-                    ButtonRecord.IdleFillColor = Color.Lime;
-                    ButtonRecord.IdleForecolor = Color.White;
-                }
-                else
-                {
-                    ButtonRecord.IdleFillColor = Color.Red;
-                    ButtonRecord.IdleForecolor = Color.White;
-                }
-
-
-
             }
-            else
-            {
-                lable_status_connect.Text = "Please Connect PLC!";
-                lable_status_connect.ForeColor = Color.Red;
-                LableCPUname.Visible = false;
-                LableTypeCPU.Visible = false;
-                //ButtonControlTest.Visible = false;
-                ButtonHorn.Visible = false;
-                ButtonRecord.Visible = false;
-            }
-            //Console.WriteLine(Status.StatusConnect);
-            //Console.WriteLine(Status.PageConnect);
+            
+            
             
         }
         //int Counter;
         private void ButtonRecord_Click(object sender, EventArgs e)
         {
-            //new Login().ShowDialog();
-            //if (Control.IsConnect == true)
-            //{
-
-            //    Counter++;
-            //    if (Counter == 1)
-            //    {
-            //        Control.plc.SetDevice("M8", 1);
-            //        Control.plc.SetDevice("M8", 0);
-
-            //    }
-
-            //    if (Counter == 2)
-            //    {
-            //        Counter = 0;
-            //    }
-            //    if (Counter == 0)
-            //    {
-            //        Control.plc.SetDevice("M9", 1);
-
-            //        Control.plc.SetDevice("M9", 0);
-
-            //    }
-
-            //}
+            LoginClose floginClose = new LoginClose(false);
+            var result = floginClose.ShowDialog();
+            if (floginClose._LoginSuccess)
+            {
+                MAIN fmain = new MAIN();
+                fmain.Reset();
+                fmain.MachineLog();
+            }
         }
     }
 }

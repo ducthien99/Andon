@@ -17,13 +17,15 @@ namespace Andon.Entity
         public int Counter { get; set; }
         public string AddressMaint { get; set; } //DisplayScreen
         public string AddressPro { get; set; } //DisplayScreen
+        public string CounterIssue { get; set; }
+        public string TimeRun { get; set; }
 
         public MachineState()
         {
 
         }
 
-        public MachineState(string name, string address, string addressTimer, string addressMaint, string addressPro)
+        public MachineState(string name, string address, string addressTimer, string addressMaint, string addressPro, string counterIssue, string timeRun)
         {
             Name = name;
             Address = address;
@@ -33,6 +35,8 @@ namespace Andon.Entity
             AddressTimer = addressTimer;
             AddressMaint = addressMaint;
             AddressPro = addressPro;
+            CounterIssue = counterIssue;
+            TimeRun = timeRun;
         }
     }
    

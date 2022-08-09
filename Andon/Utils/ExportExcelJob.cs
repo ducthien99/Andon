@@ -12,12 +12,8 @@ namespace Andon.Utils
 {
     public class ExportExcelJob : IJob
     {
-        //public void Execute(IJobExecutionContext context)
-        //{
-        //    Console.WriteLine(DateTime.Now + "----exportexcel");
-        //    ExportData();
-        //    //export excel
-        //}
+        private MachineState[] _machineStates = Data.machineStates();
+
 
         Task IJob.Execute(IJobExecutionContext context)
         {
@@ -90,7 +86,7 @@ namespace Andon.Utils
                     }
                     for (int i = 0; i < 22; i++)
                     {
-                        csv1.Append("=\"" + (HomeSlide.listmay[i]).ToString() + "\",\"" + HomeSlide.ValueTimeRun[i].ToString() + "\"\r\n");
+                        csv1.Append("=\"" + (_machineStates[i].Name).ToString() + "\",\"" + HomeSlide.ValueTimeRun[i].ToString() + "\"\r\n");
                     }
 
 
