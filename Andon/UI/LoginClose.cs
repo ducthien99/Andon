@@ -14,11 +14,13 @@ namespace Andon.UI
     {
         private const string USENAME = "Admin";
         private const string PASSWORD = "444444";
-
-        public LoginClose()
+        public bool _LoginSuccess = false;
+        private bool _CallFromThisForm;
+        public LoginClose(bool thisForm = true)
         {
             InitializeComponent();
             TextboxPass.isPassword = true;
+            _CallFromThisForm = thisForm;
         }
         private void Login()
         {
@@ -36,7 +38,13 @@ namespace Andon.UI
 
             }else if((TextboxUser.Text == USENAME) && (TextboxPass.Text == PASSWORD))
             {
-                Application.Exit();
+                if(_CallFromThisForm)
+                    Application.Exit();
+                else
+                {
+                    _LoginSuccess = true;
+                    this.Close();
+                }
             }
             else
             {

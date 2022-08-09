@@ -3,39 +3,40 @@ using System;
 using System.Drawing;
 using System.Windows.Forms;
 using Andon.ControlApp;
+using Andon.Entity;
+
 namespace Andon.UI
 {
     public partial class HomeSlide : Form
     {
-        //private AppState Status = new AppState();
-
+        #region field
+        private MachineState[] _machineStates = new MachineState[30];
+        #endregion
         public HomeSlide()
         {
             InitializeComponent();
-            //Status.PageConnect = false;
-           // AppState.PageSlide = true;
+            _machineStates = Data.machineStates();
             AddForm();
-            // Status.StatusConnect = false;
 
         }
-        public static string[] listmay =    { "BM1","BM2", "BM3", "BM4", "BM5", "BM6", "BM7","BM8", "BM9", "BM10", "GRI",
-                                              "2F1","2F2","2F3","2F4","2F5","2F6","2F7","2F8","2F9","2F10","2F11","2F12","2F13","KAB","","","","",""};// 25 MACHINE CÓ SẴN, 3 MÁY CHƯA CÓ
+        //public static string[] listmay =    { "BM1","BM2", "BM3", "BM4", "BM5", "BM6", "BM7","BM8", "BM9", "BM10", "GRI",
+        //                                      "2F1","2F2","2F3","2F4","2F5","2F6","2F7","2F8","2F9","2F10","2F11","2F12","2F13","KAB","","","","",""};// 25 MACHINE CÓ SẴN, 3 MÁY CHƯA CÓ
 
-        private string[] ListCounterIssue = { "D128","D130", "D132", "D134", "D146", "D142", "D144","D140", "D138", "D136", "D148",
-                                              "D150","D152","D154","D156","D158","D160","D162","D164","D166","D168","D172","D174","D176","D170","D178","D180","D182","D184","D186"};
-                                             //D178-D186 THEM 5 MAY DU PHONG
-        //list lưu thời gian chạy máy 
-        private string[] ListTimeRun =      {"D0","D2","D4","D6", "D8", "D10", "D12", "D14", "D16", "D18", "D20", "D22", "D24", "D26",
-                                             "D28","D30","D32","D34","D36","D38","D40","D42","D44","D46","D48","D50","D52","D54","D56","D58"};
-                                             //D50-D58 THEM 5 MAY DU PHONG
+        //private string[] ListCounterIssue = { "D128","D130", "D132", "D134", "D146", "D142", "D144","D140", "D138", "D136", "D148",
+        //                                      "D150","D152","D154","D156","D158","D160","D162","D164","D166","D168","D172","D174","D176","D170","D178","D180","D182","D184","D186"};
+        //                                     //D178-D186 THEM 5 MAY DU PHONG
+        ////list lưu thời gian chạy máy 
+        //private string[] ListTimeRun =      {"D0","D2","D4","D6", "D8", "D10", "D12", "D14", "D16", "D18", "D20", "D22", "D24", "D26",
+        //                                     "D28","D30","D32","D34","D36","D38","D40","D42","D44","D46","D48","D50","D52","D54","D56","D58"};
+        //                                     //D50-D58 THEM 5 MAY DU PHONG
         int[] ValueIssue = new int[30];
         public static int[] ValueTimeRun = new int[30];
         Panel[] GroupBoxForm = new Panel[6];
         BunifuThinButton2[] _button = new BunifuThinButton2[6];
         Label[] _lableTime = new Label[6];
         Label[] _lableIssue = new Label[6];
-       
-       
+
+
         private void AddForm()
         {
             for (int i = 0; i < 6; i++)
@@ -47,7 +48,7 @@ namespace Andon.UI
                 GroupBoxForm[i].BorderStyle = BorderStyle.None;
                 //Tạo Button
                 _button[i] = new BunifuThinButton2();
-                _button[i].ButtonText = listmay[i];
+                _button[i].ButtonText = _machineStates[i].Name;
                 _button[i].AutoSize = false;
                 _button[i].Name = "Button" + i.ToString();
                 _button[i].Dock = DockStyle.Top;
@@ -97,8 +98,6 @@ namespace Andon.UI
         }
 
         Timer MyTimer = new Timer();
-        //Timer MyTimer1 = new Timer();
-        //Timer MyTimer2 = new Timer();
         int j = 0;
 
 
@@ -117,18 +116,16 @@ namespace Andon.UI
                 //Control.IsConnect = false;
                 AppState.StatusConnect = false;
             }
-            //Console.WriteLine(AppState.StatusConnect);
-            //Console.WriteLine(AppState.PageSlide);
 
             for (int i = 0; i < 30; i++)
             {
-                Control.plc.GetDevice(ListCounterIssue[i], out ValueIssue[i]);
-                Control.plc.GetDevice(ListTimeRun[i], out ValueTimeRun[i]);
+                Control.plc.GetDevice(_machineStates[i].CounterIssue, out ValueIssue[i]);
+                Control.plc.GetDevice(_machineStates[i].TimeRun, out ValueTimeRun[i]);
             }
             if (AppState.StatusConnect)
             {
-                
-                if (j==5)
+
+                if (j == 5)
                 {
                     j = 0;
                 }
@@ -202,46 +199,21 @@ namespace Andon.UI
                 }
                 for (int i = 0; i < 6; i++)
                 {
-                    _button[i].ButtonText = listmay[6 * j + i];
+                    _button[i].ButtonText = _machineStates[6 * j + i].Name;
                     _lableIssue[i].Text = ValueIssue[6 * j + i].ToString();
                     _lableTime[i].Text = ValueTimeRun[6 * j + i].ToString();
                 }
                 j++;
 
             }
-
-
         }
-       
-       
+
+
         private void HomeSlide_Load_1(object sender, EventArgs e)
         {
             MyTimer.Interval = 10000;
-            //MyTimer.Interval = 15000;
-            //MyTimer1.Interval = 400;
-            //MyTimer2.Interval = 500;
-
             MyTimer.Start();
-            //MyTimer1.Start();
-            //MyTimer2.Start();
-            //for (int i = 0; i < 6; i++)
-            //{
-            //    Control.plc.GetDevice(ListCounterIssue[i], out ValueIssue[i]);
-            //    Control.plc.GetDevice(ListTimeRun[i], out ValueTimeRun[i]);
-            //}
-
-
             MyTimer.Tick += new EventHandler(MyTimer_Tick);
-            //MyTimer1.Tick += new EventHandler(MyTimer_Tick1);
-           // MyTimer2.Tick += new EventHandler(MyTimer_Tick2);
-           
-           
         }
-
-        //private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        //{
-
-        //}
-      
     }
-    }
+}

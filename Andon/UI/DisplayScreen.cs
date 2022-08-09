@@ -1,15 +1,10 @@
 ﻿using Andon.Entity;
-//using ActUtlTypeLib;
-
-using Andon.Utils;
 using Bunifu.Framework.UI;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
-using System.IO;
-using Andon.ControlApp;
 
 namespace Andon.UI
 {
@@ -34,7 +29,6 @@ namespace Andon.UI
             _timer = new Timer();
             _timer.Interval = (200); // 0.2 second
             _timer.Tick += new EventHandler(ScrollTimer_Tick);
-            InitForm();
 
         }
         #endregion
@@ -149,14 +143,14 @@ namespace Andon.UI
                 button.ActiveFillColor = Color.RoyalBlue;
             }
         }
-
-        private void InitForm()
-        {
-            ShowListMachineError();
-        }
         #endregion
 
         #region event
+
+        private void Timer2_Tick(object sender,EventArgs e)
+        {
+            ShowListMachineError();
+        }
 
         private void ScrollTimer_Tick(object sender, EventArgs e)
         {

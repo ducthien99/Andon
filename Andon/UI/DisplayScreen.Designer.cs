@@ -33,6 +33,7 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.Timer1 = new System.Windows.Forms.Timer(this.components);
+            this.Timer2 = new System.Windows.Forms.Timer(this.components);
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -78,12 +79,20 @@
             this.Load += new System.EventHandler(this.DisplayScreen_Load);
             this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
+            // 
+            // Timer1
+            // 
+            this.Timer2.Enabled = true;
+            this.Timer2.Interval = 1000;
+            this.Timer2.Tick += new System.EventHandler(this.Timer2_Tick);
+            // 
 
         }
 
         #endregion
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Timer Timer1;
+        private System.Windows.Forms.Timer Timer2;
         public System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
     }
 }
