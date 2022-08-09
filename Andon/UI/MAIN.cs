@@ -75,77 +75,79 @@ namespace Andon.UI
                 formulario.BringToFront();
             }
         }
-
-        #endregion
-
-        #region public method
-        public void MachineLog()
+        private void MachineLog()
         {
-            var listDownTimeToAdd = new List<MachineState>();
-
-            if (AppState.StatusConnect && AppState.StatusRecord)
+            if (AppState.IsRecord)
             {
-                for(int i = 0;i< 25;i++)
+                var listDownTimeToAdd = new List<MachineState>();
+
+                if (AppState.StatusConnect && AppState.StatusRecord)
                 {
-                    int mainState, downtime;
-                    Control.plc.GetDevice(_machineStates[i].AddressTimer, out downtime);
-                    Control.plc.GetDevice(_machineStates[i].Address, out mainState);
-
-                    if (mainState == 1)
+                    for (int i = 0; i < 25; i++)
                     {
-                        if (_machineStates[i].State == 1) { _machineStates[i].Date = DateTime.Now; }
-                        _machineStates[i].State = 0;
-                        _machineStates[i].Downtime = downtime;
-                    }
-                    else if (_machineStates[i].Downtime > 0)
-                    {
-                        _machineStates[i].State = 1;
-                        var now = DateTime.Now;
-                        var dateStart = new DateTime(now.Ticks - downtime);
+                        int mainState, downtime;
+                        Control.plc.GetDevice(_machineStates[i].AddressTimer, out downtime);
+                        Control.plc.GetDevice(_machineStates[i].Address, out mainState);
 
-                        listDownTimeToAdd.Add(new MachineState
+                        if (mainState == 1)
                         {
-                            Downtime = _machineStates[i].Downtime,
-                            Name = _machineStates[i].Name,
-                            FlagDown = true,
-                            Address = _machineStates[i].Address,
-                            AddressTimer = _machineStates[i].AddressTimer,
-                            Date = _machineStates[i].Date,
-                            DateStart = dateStart,
-                            State = 1
-                        });
-                        _machineStates[i].Downtime = 0;
+                            if (_machineStates[i].State == 1) { _machineStates[i].Date = DateTime.Now; }
+                            _machineStates[i].State = 0;
+                            _machineStates[i].Downtime = downtime;
+                        }
+                        else if (_machineStates[i].Downtime > 0)
+                        {
+                            _machineStates[i].State = 1;
+                            var now = DateTime.Now;
+                            var dateStart = new DateTime(now.Ticks - downtime);
+
+                            listDownTimeToAdd.Add(new MachineState
+                            {
+                                Downtime = _machineStates[i].Downtime,
+                                Name = _machineStates[i].Name,
+                                FlagDown = true,
+                                Address = _machineStates[i].Address,
+                                AddressTimer = _machineStates[i].AddressTimer,
+                                Date = _machineStates[i].Date,
+                                DateStart = dateStart,
+                                State = 1
+                            });
+                            _machineStates[i].Downtime = 0;
+                        }
                     }
-                }
-                if (listDownTimeToAdd.Count > 0)
-                {
-                    Console.WriteLine("Record" + listDownTimeToAdd.Count.ToString());
-                    using (var db = new MyDbContext())
+                    if (listDownTimeToAdd.Count > 0)
                     {
-                        db.MachineCollection.InsertBulk(listDownTimeToAdd);
-                        listDownTimeToAdd.Clear();
-                        db.Dispose();
+                        Console.WriteLine("Record" + listDownTimeToAdd.Count.ToString());
+                        using (var db = new MyDbContext())
+                        {
+                            db.MachineCollection.InsertBulk(listDownTimeToAdd);
+                            listDownTimeToAdd.Clear();
+                            db.Dispose();
+                        }
                     }
                 }
             }
         }
 
-        public void Reset()
+        private void Reset()
         {
-            var DateReset = DateTime.Now.ToString("HH:mm:ss");
-            var DateScheduler = "23:59:59";//Thời gian disable read data downtime(kết thúc downtime để xuất file data)
-            var DateScheduler1 = "00:00:05";//Thời gian enable read data downtime(sau khi xuất file xong sẽ cho phép đọc downtime)
-            var DateScheduler2 = "00:00:10";//Thời gian reset giá trị time running và issue
-            if (DateReset == DateScheduler)
-            { Control.plc.SetDevice("M10", 1); }
-            else if (DateReset == DateScheduler1)
+            if (AppState.IsRecord)
             {
-                Control.plc.SetDevice("M10", 0);
-            }
-            if (DateReset == DateScheduler2)
-            {
-                Control.plc.SetDevice("M3", 1);
-                Control.plc.SetDevice("M3", 0);
+                var DateReset = DateTime.Now.ToString("HH:mm:ss");
+                var DateScheduler = "23:59:59";//Thời gian disable read data downtime(kết thúc downtime để xuất file data)
+                var DateScheduler1 = "00:00:05";//Thời gian enable read data downtime(sau khi xuất file xong sẽ cho phép đọc downtime)
+                var DateScheduler2 = "00:00:10";//Thời gian reset giá trị time running và issue
+                if (DateReset == DateScheduler)
+                { Control.plc.SetDevice("M10", 1); }
+                else if (DateReset == DateScheduler1)
+                {
+                    Control.plc.SetDevice("M10", 0);
+                }
+                if (DateReset == DateScheduler2)
+                {
+                    Control.plc.SetDevice("M3", 1);
+                    Control.plc.SetDevice("M3", 0);
+                }
             }
         }
         #endregion
